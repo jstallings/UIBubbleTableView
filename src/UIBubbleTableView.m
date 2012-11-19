@@ -122,7 +122,7 @@
              NSBubbleData *bubbleData1 = (NSBubbleData *)obj1;
              NSBubbleData *bubbleData2 = (NSBubbleData *)obj2;
              
-             return [bubbleData1.date compare:bubbleData2.date];            
+             return [bubbleData2.date compare:bubbleData1.date];
          }];
         
         NSDate *last = [NSDate dateWithTimeIntervalSince1970:0];
